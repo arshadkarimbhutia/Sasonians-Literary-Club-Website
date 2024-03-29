@@ -1,0 +1,10 @@
+.info-about-book {
+    color: beige;
+    padding: 0;
+    margin: 0;
+}
+
+.book-of-the-month-name {
+    color: rgba(245, 245, 220, 0.638);
+    padding-bottom: 1em;
+}
