@@ -8,3 +8,15 @@
     color: rgba(245, 245, 220, 0.638);
     padding-bottom: 1em;
 }
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    .book-of-the-month-cover {
+        display: flex;
+        flex-shrink: 3;
+    }
+}
+
+div ol li a,
+article p a {
+    text-decoration: none;
+}
