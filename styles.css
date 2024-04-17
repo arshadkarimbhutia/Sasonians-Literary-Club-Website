@@ -75,3 +75,51 @@ article p a {
 .card:hover {
     transform: scale(1.05);
 }
+
+
+/* styles for Robotics Event Report Page */
+@media (max-width: 768px) {
+    .page-heading {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .page-para {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .image-on-pc {
+        display: none;
+    }
+
+    .image-on-mobile {
+        height: 12rem;
+        width: 100%;
+        background-size: cover;
+        margin-bottom: 1rem;
+        border-radius: 3%;
+    }
+
+    .image-1 {
+        background-image: url("./pages/Report-Robotics-Symposium-2024/img-1.jpg");
+    }
+
+    .image-2 {
+        background-image: url("./pages/Report-Robotics-Symposium-2024/img-2.jpeg");
+    }
+
+    .image-3 {
+        background-image: url("./pages/Report-Robotics-Symposium-2024/img-3.jpeg");
+    }
+
+    .image-4 {
+        background-image: url("./pages/Report-Robotics-Symposium-2024/img-4.jpeg");
+    }
+}
+
+@media (min-width: 768px) {
+    .image-on-mobile {
+        display: none;
+    }
+}
